@@ -31,7 +31,11 @@ namespace part_search {
     }
 
     void OnGUI() {
-      window_position = GUILayout.Window( id, window_position, DrawPartSearchWindow, "" );
+      window_position = GUILayout.Window( id, 
+                                          window_position,
+                                          DrawPartSearchWindow, 
+                                          "", 
+                                          HighLogic.Skin.window );
     }
 #endregion
 
@@ -40,7 +44,9 @@ namespace part_search {
     }
 
     void DrawPartSearchWindow(int window_id) {
-      SearchText = GUILayout.TextField( SearchText, GUILayout.MinWidth( 300f ) );
+      SearchText = GUILayout.TextField( SearchText,
+                                        HighLogic.Skin.textField,
+                                        GUILayout.Width( 300f ));
       GUI.DragWindow();
     }
 
