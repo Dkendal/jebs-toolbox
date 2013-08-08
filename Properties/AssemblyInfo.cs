@@ -6,9 +6,9 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("part_search")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription( "A part finder utility for ksp" )]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany( "github.com/dkendal" )]
 [assembly: AssemblyProduct("part_search")]
 [assembly: AssemblyCopyright("Copyright ©  2013")]
 [assembly: AssemblyTrademark("")]

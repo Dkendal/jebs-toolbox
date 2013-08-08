@@ -2,7 +2,7 @@
 using System.Text;
 using UnityEngine;
 
-namespace part_search {
+namespace JebsToolbox {
   class SearchFilter : EditorPartListFilter{
 
     bool _enabled = false;
